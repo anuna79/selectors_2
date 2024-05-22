@@ -104,19 +104,16 @@ input[type$="word"]::placeholder{
     padding-left: 34px;
     margin: 0;
 }
-
-.input_bio {
+textarea {
     width: 315px;
     height: 112px;
     border: solid 1px #E0E0E0;
     margin-left: 34px;
     margin-top: 4px;
     background-color: #A9A9A9;
-}
-
-.input_bio::placeholder {
     color: #FFD43A;
-    padding-top: 12px;
+    font-family: inter;
+    font-size: 16px;
 }
 
 .sign_in {
@@ -132,4 +129,3 @@ input[type$="word"]::placeholder{
     line-height: 18.15px;
     margin-bottom: 45px;
 }
-
